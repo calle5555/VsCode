@@ -1,4 +1,6 @@
 // Kommentar yay https://code.visualstudio.com/docs/languages/cpp
+#include <stdlib.h>
+#include <stdio.h>
 
 typedef struct
 {
@@ -9,7 +11,6 @@ typedef struct
     int period;
     struct Teachers* teacher;
     struct Students* student;
-
 
 }Courses;
 
@@ -35,14 +36,14 @@ typedef struct
 
 }Teachers;
 
-
-
-
-
-
 typedef struct
 {
     struct Students* student;
     struct Courses* course;
     struct Teachers* teacher;
 }Minibb;
+
+int main()
+{
+    printf("Hello World!");
+}
