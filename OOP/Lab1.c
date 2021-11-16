@@ -9,9 +9,10 @@ typedef struct
     int points;
     int year;
     int period;
+    int num_teachers;
+    int num_students;
     struct Teachers* teacher;
     struct Students* student;
-
 }Courses;
 
 typedef struct
@@ -21,19 +22,18 @@ typedef struct
     int phone;
     int year;
     int id;
+    int num_courses;
     struct Courses* courses;
-
 }Students;
 
 typedef struct
 {
-
     char name[50];
     char email[50];
     int phone;
     int office_num;
+    int num_courses;
     struct Courses* courses;
-
 }Teachers;
 
 typedef struct
@@ -46,4 +46,5 @@ typedef struct
 int main()
 {
     printf("Hello World!");
+    return 0;
 }
