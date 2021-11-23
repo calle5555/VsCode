@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/OOP/Lab3",
+    "cmake.generator": "MinGW MakeFiles"
+}
