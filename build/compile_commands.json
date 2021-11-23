@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\OOP.dir\\main.cpp.obj -c C:\\Users\\lukas\\AppData\\Local\\Programs\\VScode\\ObProg\\VsCode\\main.cpp",
+  "file": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/main.cpp"
+}
+]
