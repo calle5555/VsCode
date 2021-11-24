@@ -8,7 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/main.cpp" "CMakeFiles/OOP.dir/main.cpp.obj" "gcc" "CMakeFiles/OOP.dir/main.cpp.obj.d"
+  "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/admin.cpp" "CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.obj" "gcc" "CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.obj.d"
+  "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/assessment.cpp" "CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.obj" "gcc" "CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.obj.d"
+  "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/course.cpp" "CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.obj" "gcc" "CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.obj.d"
+  "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/course_inst.cpp" "CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.obj" "gcc" "CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.obj.d"
+  "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/main.cpp" "CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.obj" "gcc" "CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.obj.d"
+  "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/minibb.cpp" "CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.obj" "gcc" "CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.obj.d"
+  "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/person.cpp" "CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.obj" "gcc" "CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.obj.d"
+  "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/program1.cpp" "CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.obj" "gcc" "CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.obj.d"
+  "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/program_inst.cpp" "CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.obj" "gcc" "CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.obj.d"
+  "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/student.cpp" "CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.obj" "gcc" "CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.obj.d"
+  "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/teacher.cpp" "CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.obj" "gcc" "CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.obj.d"
   )
 
 # Targets to which this target links.

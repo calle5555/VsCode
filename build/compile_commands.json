@@ -1,7 +1,57 @@
 [
 {
   "directory": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/build",
-  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\OOP.dir\\main.cpp.obj -c C:\\Users\\lukas\\AppData\\Local\\Programs\\VScode\\ObProg\\VsCode\\main.cpp",
-  "file": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/main.cpp"
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\OOP.dir\\OOP\\Lab3\\main.cpp.obj -c C:\\Users\\lukas\\AppData\\Local\\Programs\\VScode\\ObProg\\VsCode\\OOP\\Lab3\\main.cpp",
+  "file": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/main.cpp"
+},
+{
+  "directory": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\OOP.dir\\OOP\\Lab3\\admin.cpp.obj -c C:\\Users\\lukas\\AppData\\Local\\Programs\\VScode\\ObProg\\VsCode\\OOP\\Lab3\\admin.cpp",
+  "file": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/admin.cpp"
+},
+{
+  "directory": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\OOP.dir\\OOP\\Lab3\\assessment.cpp.obj -c C:\\Users\\lukas\\AppData\\Local\\Programs\\VScode\\ObProg\\VsCode\\OOP\\Lab3\\assessment.cpp",
+  "file": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/assessment.cpp"
+},
+{
+  "directory": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\OOP.dir\\OOP\\Lab3\\course_inst.cpp.obj -c C:\\Users\\lukas\\AppData\\Local\\Programs\\VScode\\ObProg\\VsCode\\OOP\\Lab3\\course_inst.cpp",
+  "file": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/course_inst.cpp"
+},
+{
+  "directory": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\OOP.dir\\OOP\\Lab3\\course.cpp.obj -c C:\\Users\\lukas\\AppData\\Local\\Programs\\VScode\\ObProg\\VsCode\\OOP\\Lab3\\course.cpp",
+  "file": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/course.cpp"
+},
+{
+  "directory": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\OOP.dir\\OOP\\Lab3\\minibb.cpp.obj -c C:\\Users\\lukas\\AppData\\Local\\Programs\\VScode\\ObProg\\VsCode\\OOP\\Lab3\\minibb.cpp",
+  "file": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/minibb.cpp"
+},
+{
+  "directory": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\OOP.dir\\OOP\\Lab3\\person.cpp.obj -c C:\\Users\\lukas\\AppData\\Local\\Programs\\VScode\\ObProg\\VsCode\\OOP\\Lab3\\person.cpp",
+  "file": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/person.cpp"
+},
+{
+  "directory": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\OOP.dir\\OOP\\Lab3\\program_inst.cpp.obj -c C:\\Users\\lukas\\AppData\\Local\\Programs\\VScode\\ObProg\\VsCode\\OOP\\Lab3\\program_inst.cpp",
+  "file": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/program_inst.cpp"
+},
+{
+  "directory": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\OOP.dir\\OOP\\Lab3\\program1.cpp.obj -c C:\\Users\\lukas\\AppData\\Local\\Programs\\VScode\\ObProg\\VsCode\\OOP\\Lab3\\program1.cpp",
+  "file": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/program1.cpp"
+},
+{
+  "directory": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\OOP.dir\\OOP\\Lab3\\student.cpp.obj -c C:\\Users\\lukas\\AppData\\Local\\Programs\\VScode\\ObProg\\VsCode\\OOP\\Lab3\\student.cpp",
+  "file": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/student.cpp"
+},
+{
+  "directory": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\OOP.dir\\OOP\\Lab3\\teacher.cpp.obj -c C:\\Users\\lukas\\AppData\\Local\\Programs\\VScode\\ObProg\\VsCode\\OOP\\Lab3\\teacher.cpp",
+  "file": "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/OOP/Lab3/teacher.cpp"
 }
 ]
