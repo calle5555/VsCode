@@ -68,33 +68,193 @@ include CMakeFiles/OOP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OOP.dir/flags.make
 
-CMakeFiles/OOP.dir/main.cpp.obj: CMakeFiles/OOP.dir/flags.make
-CMakeFiles/OOP.dir/main.cpp.obj: ../main.cpp
-CMakeFiles/OOP.dir/main.cpp.obj: CMakeFiles/OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Program Files\VSCode\VsCode\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP.dir/main.cpp.obj"
-	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP.dir/main.cpp.obj -MF CMakeFiles\OOP.dir\main.cpp.obj.d -o CMakeFiles\OOP.dir\main.cpp.obj -c "C:\Program Files\VSCode\VsCode\main.cpp"
+CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.obj: CMakeFiles/OOP.dir/flags.make
+CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.obj: ../OOP/Lab3/main.cpp
+CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.obj: CMakeFiles/OOP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Program Files\VSCode\VsCode\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.obj"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.obj -MF CMakeFiles\OOP.dir\OOP\Lab3\main.cpp.obj.d -o CMakeFiles\OOP.dir\OOP\Lab3\main.cpp.obj -c "C:\Program Files\VSCode\VsCode\OOP\Lab3\main.cpp"
 
-CMakeFiles/OOP.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP.dir/main.cpp.i"
-	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Program Files\VSCode\VsCode\main.cpp" > CMakeFiles\OOP.dir\main.cpp.i
+CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.i"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Program Files\VSCode\VsCode\OOP\Lab3\main.cpp" > CMakeFiles\OOP.dir\OOP\Lab3\main.cpp.i
 
-CMakeFiles/OOP.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP.dir/main.cpp.s"
-	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Program Files\VSCode\VsCode\main.cpp" -o CMakeFiles\OOP.dir\main.cpp.s
+CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.s"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Program Files\VSCode\VsCode\OOP\Lab3\main.cpp" -o CMakeFiles\OOP.dir\OOP\Lab3\main.cpp.s
+
+CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.obj: CMakeFiles/OOP.dir/flags.make
+CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.obj: ../OOP/Lab3/admin.cpp
+CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.obj: CMakeFiles/OOP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Program Files\VSCode\VsCode\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.obj"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.obj -MF CMakeFiles\OOP.dir\OOP\Lab3\admin.cpp.obj.d -o CMakeFiles\OOP.dir\OOP\Lab3\admin.cpp.obj -c "C:\Program Files\VSCode\VsCode\OOP\Lab3\admin.cpp"
+
+CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.i"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Program Files\VSCode\VsCode\OOP\Lab3\admin.cpp" > CMakeFiles\OOP.dir\OOP\Lab3\admin.cpp.i
+
+CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.s"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Program Files\VSCode\VsCode\OOP\Lab3\admin.cpp" -o CMakeFiles\OOP.dir\OOP\Lab3\admin.cpp.s
+
+CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.obj: CMakeFiles/OOP.dir/flags.make
+CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.obj: ../OOP/Lab3/assessment.cpp
+CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.obj: CMakeFiles/OOP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Program Files\VSCode\VsCode\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.obj"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.obj -MF CMakeFiles\OOP.dir\OOP\Lab3\assessment.cpp.obj.d -o CMakeFiles\OOP.dir\OOP\Lab3\assessment.cpp.obj -c "C:\Program Files\VSCode\VsCode\OOP\Lab3\assessment.cpp"
+
+CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.i"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Program Files\VSCode\VsCode\OOP\Lab3\assessment.cpp" > CMakeFiles\OOP.dir\OOP\Lab3\assessment.cpp.i
+
+CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.s"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Program Files\VSCode\VsCode\OOP\Lab3\assessment.cpp" -o CMakeFiles\OOP.dir\OOP\Lab3\assessment.cpp.s
+
+CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.obj: CMakeFiles/OOP.dir/flags.make
+CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.obj: ../OOP/Lab3/course_inst.cpp
+CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.obj: CMakeFiles/OOP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Program Files\VSCode\VsCode\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.obj"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.obj -MF CMakeFiles\OOP.dir\OOP\Lab3\course_inst.cpp.obj.d -o CMakeFiles\OOP.dir\OOP\Lab3\course_inst.cpp.obj -c "C:\Program Files\VSCode\VsCode\OOP\Lab3\course_inst.cpp"
+
+CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.i"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Program Files\VSCode\VsCode\OOP\Lab3\course_inst.cpp" > CMakeFiles\OOP.dir\OOP\Lab3\course_inst.cpp.i
+
+CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.s"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Program Files\VSCode\VsCode\OOP\Lab3\course_inst.cpp" -o CMakeFiles\OOP.dir\OOP\Lab3\course_inst.cpp.s
+
+CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.obj: CMakeFiles/OOP.dir/flags.make
+CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.obj: ../OOP/Lab3/course.cpp
+CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.obj: CMakeFiles/OOP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Program Files\VSCode\VsCode\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.obj"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.obj -MF CMakeFiles\OOP.dir\OOP\Lab3\course.cpp.obj.d -o CMakeFiles\OOP.dir\OOP\Lab3\course.cpp.obj -c "C:\Program Files\VSCode\VsCode\OOP\Lab3\course.cpp"
+
+CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.i"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Program Files\VSCode\VsCode\OOP\Lab3\course.cpp" > CMakeFiles\OOP.dir\OOP\Lab3\course.cpp.i
+
+CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.s"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Program Files\VSCode\VsCode\OOP\Lab3\course.cpp" -o CMakeFiles\OOP.dir\OOP\Lab3\course.cpp.s
+
+CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.obj: CMakeFiles/OOP.dir/flags.make
+CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.obj: ../OOP/Lab3/minibb.cpp
+CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.obj: CMakeFiles/OOP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Program Files\VSCode\VsCode\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.obj"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.obj -MF CMakeFiles\OOP.dir\OOP\Lab3\minibb.cpp.obj.d -o CMakeFiles\OOP.dir\OOP\Lab3\minibb.cpp.obj -c "C:\Program Files\VSCode\VsCode\OOP\Lab3\minibb.cpp"
+
+CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.i"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Program Files\VSCode\VsCode\OOP\Lab3\minibb.cpp" > CMakeFiles\OOP.dir\OOP\Lab3\minibb.cpp.i
+
+CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.s"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Program Files\VSCode\VsCode\OOP\Lab3\minibb.cpp" -o CMakeFiles\OOP.dir\OOP\Lab3\minibb.cpp.s
+
+CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.obj: CMakeFiles/OOP.dir/flags.make
+CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.obj: ../OOP/Lab3/person.cpp
+CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.obj: CMakeFiles/OOP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Program Files\VSCode\VsCode\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.obj"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.obj -MF CMakeFiles\OOP.dir\OOP\Lab3\person.cpp.obj.d -o CMakeFiles\OOP.dir\OOP\Lab3\person.cpp.obj -c "C:\Program Files\VSCode\VsCode\OOP\Lab3\person.cpp"
+
+CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.i"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Program Files\VSCode\VsCode\OOP\Lab3\person.cpp" > CMakeFiles\OOP.dir\OOP\Lab3\person.cpp.i
+
+CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.s"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Program Files\VSCode\VsCode\OOP\Lab3\person.cpp" -o CMakeFiles\OOP.dir\OOP\Lab3\person.cpp.s
+
+CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.obj: CMakeFiles/OOP.dir/flags.make
+CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.obj: ../OOP/Lab3/program_inst.cpp
+CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.obj: CMakeFiles/OOP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Program Files\VSCode\VsCode\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.obj"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.obj -MF CMakeFiles\OOP.dir\OOP\Lab3\program_inst.cpp.obj.d -o CMakeFiles\OOP.dir\OOP\Lab3\program_inst.cpp.obj -c "C:\Program Files\VSCode\VsCode\OOP\Lab3\program_inst.cpp"
+
+CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.i"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Program Files\VSCode\VsCode\OOP\Lab3\program_inst.cpp" > CMakeFiles\OOP.dir\OOP\Lab3\program_inst.cpp.i
+
+CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.s"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Program Files\VSCode\VsCode\OOP\Lab3\program_inst.cpp" -o CMakeFiles\OOP.dir\OOP\Lab3\program_inst.cpp.s
+
+CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.obj: CMakeFiles/OOP.dir/flags.make
+CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.obj: ../OOP/Lab3/program1.cpp
+CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.obj: CMakeFiles/OOP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Program Files\VSCode\VsCode\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.obj"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.obj -MF CMakeFiles\OOP.dir\OOP\Lab3\program1.cpp.obj.d -o CMakeFiles\OOP.dir\OOP\Lab3\program1.cpp.obj -c "C:\Program Files\VSCode\VsCode\OOP\Lab3\program1.cpp"
+
+CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.i"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Program Files\VSCode\VsCode\OOP\Lab3\program1.cpp" > CMakeFiles\OOP.dir\OOP\Lab3\program1.cpp.i
+
+CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.s"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Program Files\VSCode\VsCode\OOP\Lab3\program1.cpp" -o CMakeFiles\OOP.dir\OOP\Lab3\program1.cpp.s
+
+CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.obj: CMakeFiles/OOP.dir/flags.make
+CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.obj: ../OOP/Lab3/student.cpp
+CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.obj: CMakeFiles/OOP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Program Files\VSCode\VsCode\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.obj"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.obj -MF CMakeFiles\OOP.dir\OOP\Lab3\student.cpp.obj.d -o CMakeFiles\OOP.dir\OOP\Lab3\student.cpp.obj -c "C:\Program Files\VSCode\VsCode\OOP\Lab3\student.cpp"
+
+CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.i"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Program Files\VSCode\VsCode\OOP\Lab3\student.cpp" > CMakeFiles\OOP.dir\OOP\Lab3\student.cpp.i
+
+CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.s"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Program Files\VSCode\VsCode\OOP\Lab3\student.cpp" -o CMakeFiles\OOP.dir\OOP\Lab3\student.cpp.s
+
+CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.obj: CMakeFiles/OOP.dir/flags.make
+CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.obj: ../OOP/Lab3/teacher.cpp
+CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.obj: CMakeFiles/OOP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Program Files\VSCode\VsCode\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.obj"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.obj -MF CMakeFiles\OOP.dir\OOP\Lab3\teacher.cpp.obj.d -o CMakeFiles\OOP.dir\OOP\Lab3\teacher.cpp.obj -c "C:\Program Files\VSCode\VsCode\OOP\Lab3\teacher.cpp"
+
+CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.i"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Program Files\VSCode\VsCode\OOP\Lab3\teacher.cpp" > CMakeFiles\OOP.dir\OOP\Lab3\teacher.cpp.i
+
+CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.s"
+	C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Program Files\VSCode\VsCode\OOP\Lab3\teacher.cpp" -o CMakeFiles\OOP.dir\OOP\Lab3\teacher.cpp.s
 
 # Object files for target OOP
 OOP_OBJECTS = \
-"CMakeFiles/OOP.dir/main.cpp.obj"
+"CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.obj" \
+"CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.obj" \
+"CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.obj" \
+"CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.obj" \
+"CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.obj" \
+"CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.obj" \
+"CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.obj" \
+"CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.obj" \
+"CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.obj" \
+"CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.obj" \
+"CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.obj"
 
 # External object files for target OOP
 OOP_EXTERNAL_OBJECTS =
 
-OOP.exe: CMakeFiles/OOP.dir/main.cpp.obj
+OOP.exe: CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.obj
+OOP.exe: CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.obj
+OOP.exe: CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.obj
+OOP.exe: CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.obj
+OOP.exe: CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.obj
+OOP.exe: CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.obj
+OOP.exe: CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.obj
+OOP.exe: CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.obj
+OOP.exe: CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.obj
+OOP.exe: CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.obj
+OOP.exe: CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.obj
 OOP.exe: CMakeFiles/OOP.dir/build.make
 OOP.exe: CMakeFiles/OOP.dir/linklibs.rsp
 OOP.exe: CMakeFiles/OOP.dir/objects1.rsp
 OOP.exe: CMakeFiles/OOP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Program Files\VSCode\VsCode\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OOP.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Program Files\VSCode\VsCode\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable OOP.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OOP.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

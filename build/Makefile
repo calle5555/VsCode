@@ -522,29 +522,269 @@ OOP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/build
 .PHONY : OOP/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+OOP/Lab3/admin.obj: OOP/Lab3/admin.cpp.obj
+.PHONY : OOP/Lab3/admin.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+OOP/Lab3/admin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.obj
+.PHONY : OOP/Lab3/admin.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+OOP/Lab3/admin.i: OOP/Lab3/admin.cpp.i
+.PHONY : OOP/Lab3/admin.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/main.cpp.i
-.PHONY : main.cpp.i
+OOP/Lab3/admin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.i
+.PHONY : OOP/Lab3/admin.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+OOP/Lab3/admin.s: OOP/Lab3/admin.cpp.s
+.PHONY : OOP/Lab3/admin.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/main.cpp.s
-.PHONY : main.cpp.s
+OOP/Lab3/admin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.s
+.PHONY : OOP/Lab3/admin.cpp.s
+
+OOP/Lab3/assessment.obj: OOP/Lab3/assessment.cpp.obj
+.PHONY : OOP/Lab3/assessment.obj
+
+# target to build an object file
+OOP/Lab3/assessment.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.obj
+.PHONY : OOP/Lab3/assessment.cpp.obj
+
+OOP/Lab3/assessment.i: OOP/Lab3/assessment.cpp.i
+.PHONY : OOP/Lab3/assessment.i
+
+# target to preprocess a source file
+OOP/Lab3/assessment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.i
+.PHONY : OOP/Lab3/assessment.cpp.i
+
+OOP/Lab3/assessment.s: OOP/Lab3/assessment.cpp.s
+.PHONY : OOP/Lab3/assessment.s
+
+# target to generate assembly for a file
+OOP/Lab3/assessment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.s
+.PHONY : OOP/Lab3/assessment.cpp.s
+
+OOP/Lab3/course.obj: OOP/Lab3/course.cpp.obj
+.PHONY : OOP/Lab3/course.obj
+
+# target to build an object file
+OOP/Lab3/course.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.obj
+.PHONY : OOP/Lab3/course.cpp.obj
+
+OOP/Lab3/course.i: OOP/Lab3/course.cpp.i
+.PHONY : OOP/Lab3/course.i
+
+# target to preprocess a source file
+OOP/Lab3/course.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.i
+.PHONY : OOP/Lab3/course.cpp.i
+
+OOP/Lab3/course.s: OOP/Lab3/course.cpp.s
+.PHONY : OOP/Lab3/course.s
+
+# target to generate assembly for a file
+OOP/Lab3/course.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/course.cpp.s
+.PHONY : OOP/Lab3/course.cpp.s
+
+OOP/Lab3/course_inst.obj: OOP/Lab3/course_inst.cpp.obj
+.PHONY : OOP/Lab3/course_inst.obj
+
+# target to build an object file
+OOP/Lab3/course_inst.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.obj
+.PHONY : OOP/Lab3/course_inst.cpp.obj
+
+OOP/Lab3/course_inst.i: OOP/Lab3/course_inst.cpp.i
+.PHONY : OOP/Lab3/course_inst.i
+
+# target to preprocess a source file
+OOP/Lab3/course_inst.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.i
+.PHONY : OOP/Lab3/course_inst.cpp.i
+
+OOP/Lab3/course_inst.s: OOP/Lab3/course_inst.cpp.s
+.PHONY : OOP/Lab3/course_inst.s
+
+# target to generate assembly for a file
+OOP/Lab3/course_inst.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.s
+.PHONY : OOP/Lab3/course_inst.cpp.s
+
+OOP/Lab3/main.obj: OOP/Lab3/main.cpp.obj
+.PHONY : OOP/Lab3/main.obj
+
+# target to build an object file
+OOP/Lab3/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.obj
+.PHONY : OOP/Lab3/main.cpp.obj
+
+OOP/Lab3/main.i: OOP/Lab3/main.cpp.i
+.PHONY : OOP/Lab3/main.i
+
+# target to preprocess a source file
+OOP/Lab3/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.i
+.PHONY : OOP/Lab3/main.cpp.i
+
+OOP/Lab3/main.s: OOP/Lab3/main.cpp.s
+.PHONY : OOP/Lab3/main.s
+
+# target to generate assembly for a file
+OOP/Lab3/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.s
+.PHONY : OOP/Lab3/main.cpp.s
+
+OOP/Lab3/minibb.obj: OOP/Lab3/minibb.cpp.obj
+.PHONY : OOP/Lab3/minibb.obj
+
+# target to build an object file
+OOP/Lab3/minibb.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.obj
+.PHONY : OOP/Lab3/minibb.cpp.obj
+
+OOP/Lab3/minibb.i: OOP/Lab3/minibb.cpp.i
+.PHONY : OOP/Lab3/minibb.i
+
+# target to preprocess a source file
+OOP/Lab3/minibb.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.i
+.PHONY : OOP/Lab3/minibb.cpp.i
+
+OOP/Lab3/minibb.s: OOP/Lab3/minibb.cpp.s
+.PHONY : OOP/Lab3/minibb.s
+
+# target to generate assembly for a file
+OOP/Lab3/minibb.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.s
+.PHONY : OOP/Lab3/minibb.cpp.s
+
+OOP/Lab3/person.obj: OOP/Lab3/person.cpp.obj
+.PHONY : OOP/Lab3/person.obj
+
+# target to build an object file
+OOP/Lab3/person.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.obj
+.PHONY : OOP/Lab3/person.cpp.obj
+
+OOP/Lab3/person.i: OOP/Lab3/person.cpp.i
+.PHONY : OOP/Lab3/person.i
+
+# target to preprocess a source file
+OOP/Lab3/person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.i
+.PHONY : OOP/Lab3/person.cpp.i
+
+OOP/Lab3/person.s: OOP/Lab3/person.cpp.s
+.PHONY : OOP/Lab3/person.s
+
+# target to generate assembly for a file
+OOP/Lab3/person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/person.cpp.s
+.PHONY : OOP/Lab3/person.cpp.s
+
+OOP/Lab3/program1.obj: OOP/Lab3/program1.cpp.obj
+.PHONY : OOP/Lab3/program1.obj
+
+# target to build an object file
+OOP/Lab3/program1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.obj
+.PHONY : OOP/Lab3/program1.cpp.obj
+
+OOP/Lab3/program1.i: OOP/Lab3/program1.cpp.i
+.PHONY : OOP/Lab3/program1.i
+
+# target to preprocess a source file
+OOP/Lab3/program1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.i
+.PHONY : OOP/Lab3/program1.cpp.i
+
+OOP/Lab3/program1.s: OOP/Lab3/program1.cpp.s
+.PHONY : OOP/Lab3/program1.s
+
+# target to generate assembly for a file
+OOP/Lab3/program1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/program1.cpp.s
+.PHONY : OOP/Lab3/program1.cpp.s
+
+OOP/Lab3/program_inst.obj: OOP/Lab3/program_inst.cpp.obj
+.PHONY : OOP/Lab3/program_inst.obj
+
+# target to build an object file
+OOP/Lab3/program_inst.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.obj
+.PHONY : OOP/Lab3/program_inst.cpp.obj
+
+OOP/Lab3/program_inst.i: OOP/Lab3/program_inst.cpp.i
+.PHONY : OOP/Lab3/program_inst.i
+
+# target to preprocess a source file
+OOP/Lab3/program_inst.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.i
+.PHONY : OOP/Lab3/program_inst.cpp.i
+
+OOP/Lab3/program_inst.s: OOP/Lab3/program_inst.cpp.s
+.PHONY : OOP/Lab3/program_inst.s
+
+# target to generate assembly for a file
+OOP/Lab3/program_inst.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.s
+.PHONY : OOP/Lab3/program_inst.cpp.s
+
+OOP/Lab3/student.obj: OOP/Lab3/student.cpp.obj
+.PHONY : OOP/Lab3/student.obj
+
+# target to build an object file
+OOP/Lab3/student.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.obj
+.PHONY : OOP/Lab3/student.cpp.obj
+
+OOP/Lab3/student.i: OOP/Lab3/student.cpp.i
+.PHONY : OOP/Lab3/student.i
+
+# target to preprocess a source file
+OOP/Lab3/student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.i
+.PHONY : OOP/Lab3/student.cpp.i
+
+OOP/Lab3/student.s: OOP/Lab3/student.cpp.s
+.PHONY : OOP/Lab3/student.s
+
+# target to generate assembly for a file
+OOP/Lab3/student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.s
+.PHONY : OOP/Lab3/student.cpp.s
+
+OOP/Lab3/teacher.obj: OOP/Lab3/teacher.cpp.obj
+.PHONY : OOP/Lab3/teacher.obj
+
+# target to build an object file
+OOP/Lab3/teacher.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.obj
+.PHONY : OOP/Lab3/teacher.cpp.obj
+
+OOP/Lab3/teacher.i: OOP/Lab3/teacher.cpp.i
+.PHONY : OOP/Lab3/teacher.i
+
+# target to preprocess a source file
+OOP/Lab3/teacher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.i
+.PHONY : OOP/Lab3/teacher.cpp.i
+
+OOP/Lab3/teacher.s: OOP/Lab3/teacher.cpp.s
+.PHONY : OOP/Lab3/teacher.s
+
+# target to generate assembly for a file
+OOP/Lab3/teacher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP.dir\build.make CMakeFiles/OOP.dir/OOP/Lab3/teacher.cpp.s
+.PHONY : OOP/Lab3/teacher.cpp.s
 
 # Help Target
 help:
@@ -586,9 +826,39 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... OOP
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... OOP/Lab3/admin.obj
+	@echo ... OOP/Lab3/admin.i
+	@echo ... OOP/Lab3/admin.s
+	@echo ... OOP/Lab3/assessment.obj
+	@echo ... OOP/Lab3/assessment.i
+	@echo ... OOP/Lab3/assessment.s
+	@echo ... OOP/Lab3/course.obj
+	@echo ... OOP/Lab3/course.i
+	@echo ... OOP/Lab3/course.s
+	@echo ... OOP/Lab3/course_inst.obj
+	@echo ... OOP/Lab3/course_inst.i
+	@echo ... OOP/Lab3/course_inst.s
+	@echo ... OOP/Lab3/main.obj
+	@echo ... OOP/Lab3/main.i
+	@echo ... OOP/Lab3/main.s
+	@echo ... OOP/Lab3/minibb.obj
+	@echo ... OOP/Lab3/minibb.i
+	@echo ... OOP/Lab3/minibb.s
+	@echo ... OOP/Lab3/person.obj
+	@echo ... OOP/Lab3/person.i
+	@echo ... OOP/Lab3/person.s
+	@echo ... OOP/Lab3/program1.obj
+	@echo ... OOP/Lab3/program1.i
+	@echo ... OOP/Lab3/program1.s
+	@echo ... OOP/Lab3/program_inst.obj
+	@echo ... OOP/Lab3/program_inst.i
+	@echo ... OOP/Lab3/program_inst.s
+	@echo ... OOP/Lab3/student.obj
+	@echo ... OOP/Lab3/student.i
+	@echo ... OOP/Lab3/student.s
+	@echo ... OOP/Lab3/teacher.obj
+	@echo ... OOP/Lab3/teacher.i
+	@echo ... OOP/Lab3/teacher.s
 .PHONY : help
 
 
