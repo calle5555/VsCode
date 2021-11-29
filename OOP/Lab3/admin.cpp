@@ -1,7 +1,7 @@
 #include "admin.h"
-#include "person.h"
 
-Admin::Admin(int o = 0):office_num(o){}
+Admin::Admin(int office_num1 = 0, string name1 = "", string email1 = "", string phone1 = ""):
+Person(name1, email1, phone1),office_num(office_num1){}
 
 void Admin::Add_Teacher(){
 }

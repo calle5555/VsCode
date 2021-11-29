@@ -3,11 +3,11 @@
 
 using namespace std;
 class Person{
-    private:
+    protected:
         string name;
         string email;
         string phone;
 
     public:
-        Person(string n, string e, string p);
+        Person(string name, string email, string phone);
 };

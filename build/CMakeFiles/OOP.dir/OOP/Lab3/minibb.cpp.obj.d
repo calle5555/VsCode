@@ -41,9 +41,7 @@ CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.obj: \
  C:/msys64/mingw64/include/c++/11.2.0/bits/range_access.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/vector.tcc \
  C:\Users\lukas\AppData\Local\Programs\VScode\ObProg\VsCode\OOP\Lab3\student.h \
- C:\Users\lukas\AppData\Local\Programs\VScode\ObProg\VsCode\OOP\Lab3\teacher.h \
- C:\Users\lukas\AppData\Local\Programs\VScode\ObProg\VsCode\OOP\Lab3\admin.h \
- C:\Users\lukas\AppData\Local\Programs\VScode\ObProg\VsCode\OOP\Lab3\program.h \
+ C:\Users\lukas\AppData\Local\Programs\VScode\ObProg\VsCode\OOP\Lab3\person.h \
  C:/msys64/mingw64/include/c++/11.2.0/string \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stringfwd.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/char_traits.h \
@@ -117,6 +115,9 @@ CMakeFiles/OOP.dir/OOP/Lab3/minibb.cpp.obj: \
  C:/msys64/mingw64/include/c++/11.2.0/cerrno \
  C:/msys64/mingw64/include/c++/11.2.0/bits/charconv.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/basic_string.tcc \
+ C:\Users\lukas\AppData\Local\Programs\VScode\ObProg\VsCode\OOP\Lab3\teacher.h \
+ C:\Users\lukas\AppData\Local\Programs\VScode\ObProg\VsCode\OOP\Lab3\admin.h \
+ C:\Users\lukas\AppData\Local\Programs\VScode\ObProg\VsCode\OOP\Lab3\program.h \
  C:\Users\lukas\AppData\Local\Programs\VScode\ObProg\VsCode\OOP\Lab3\course.h \
  C:\Users\lukas\AppData\Local\Programs\VScode\ObProg\VsCode\OOP\Lab3\program_inst.h \
  C:\Users\lukas\AppData\Local\Programs\VScode\ObProg\VsCode\OOP\Lab3\course_inst.h \

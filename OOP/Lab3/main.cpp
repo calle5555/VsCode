@@ -1,19 +1,14 @@
 #include <iostream>
-#include "student.h"
-#include "teacher.h"
-#include "admin.h"
-#include "program.h"
-#include "program_inst.h"
-#include "course.h"
-#include "course_inst.h"
-#include "assessment.h"
-#include "person.h"
+#include "minibb.h"
 
 using namespace std;
 int main(int, char**) {
     cout << "Hello World!" << endl;
 
-    Student calle(2020, 1337);
+    Minibb minibb;
 
-    calle.Print_info();
+    minibb.students.push_back(Student (2020, 1337,"pelle","hej@gmail.com","123456789"));
+
+
+    minibb.students.at(0).Print_info();
 }

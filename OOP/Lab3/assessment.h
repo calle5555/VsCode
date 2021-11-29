@@ -3,10 +3,10 @@
 
 using namespace std;
 class Assessment{
-    private:
+    protected:
         int score;
         string deadline;
 
     public:
-        Assessment(int s, string d);
+        Assessment(int score, string deadline);
 };

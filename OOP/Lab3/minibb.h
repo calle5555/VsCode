@@ -8,12 +8,10 @@
 #include "course.h"
 #include "course_inst.h"
 
-
 using namespace std;
-
 class Minibb{
 
-    private:
+    public:
     vector<Program> programs;
     vector<Program_Inst> progins;
     vector<Course> courses;
@@ -22,8 +20,6 @@ class Minibb{
     vector<Teacher> teachers;
     vector<Admin> admins;
     friend class Admin;
-
-    public:
 
     Minibb();
 

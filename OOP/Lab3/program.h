@@ -5,11 +5,11 @@
 
 using namespace std;
 class Program{
-    private:
+    protected:
         string name;
         string code;
         vector<Course> courses;
 
     public:
-        Program(string n, string c);
+        Program(string name, string code);
 };

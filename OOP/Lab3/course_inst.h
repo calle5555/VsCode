@@ -1,11 +1,13 @@
 #pragma once
 #include <vector>
+#include <string>
 #include "student.h"
 #include "teacher.h"
 #include "assessment.h"
+#include "course.h"
 
 using namespace std;
-class Course_Inst{
+class Course_Inst: public Course{
 
     private:
         int year;
@@ -16,7 +18,7 @@ class Course_Inst{
 
     public:
 
-        Course_Inst(int y, int p);
+        Course_Inst(int year, int period, string name, string code, double points);
 
         void Print_Participants();
 };

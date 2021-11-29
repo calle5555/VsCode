@@ -135,4 +135,5 @@ CMakeFiles/OOP.dir/OOP/Lab3/student.cpp.obj: \
  C:/msys64/mingw64/include/c++/11.2.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/11.2.0/istream \
  C:/msys64/mingw64/include/c++/11.2.0/bits/istream.tcc \
- C:\Users\lukas\AppData\Local\Programs\VScode\ObProg\VsCode\OOP\Lab3\student.h
+ C:\Users\lukas\AppData\Local\Programs\VScode\ObProg\VsCode\OOP\Lab3\student.h \
+ C:\Users\lukas\AppData\Local\Programs\VScode\ObProg\VsCode\OOP\Lab3\person.h

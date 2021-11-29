@@ -4,13 +4,13 @@
 using namespace std;
 class Course{
 
-    private:
+    protected:
         string name;
         string code;
         double points;
 
     public:
-        Course(string n, string c, double p);
+        Course(string name, string code, double points);
 
         void Course_Info();
 };

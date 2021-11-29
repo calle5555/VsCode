@@ -1,4 +1,4 @@
 #include "assessment.h"
 
-Assessment::Assessment(int s = 0, string d = ""):score(s), deadline(d){}
+Assessment::Assessment(int score1 = 0, string deadline1 = ""):score(score1), deadline(deadline1){}
 

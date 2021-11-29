@@ -1,12 +1,13 @@
 #pragma once
+#include "person.h"
 
-class Admin{
+class Admin: public Person{
     private:
         int office_num;
 
     public:
 
-    Admin(int o);
+    Admin(int office_num, string name, string email, string phone);
 
     void Add_Teacher();
 
