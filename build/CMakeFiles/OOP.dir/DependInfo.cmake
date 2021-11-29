@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/main.cpp" "CMakeFiles/OOP.dir/main.cpp.obj" "gcc" "CMakeFiles/OOP.dir/main.cpp.obj.d"
+  "C:/Program Files/VSCode/VsCode/main.cpp" "CMakeFiles/OOP.dir/main.cpp.obj" "gcc" "CMakeFiles/OOP.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

@@ -1,5 +1,4 @@
-CMakeFiles/OOP.dir/main.cpp.obj: \
- C:\Users\lukas\AppData\Local\Programs\VScode\ObProg\VsCode\main.cpp \
+CMakeFiles/OOP.dir/main.cpp.obj: C:\Program\ Files\VSCode\VsCode\main.cpp \
  C:/msys64/mingw64/include/c++/11.2.0/iostream \
  C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/os_defines.h \

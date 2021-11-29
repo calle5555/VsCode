@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode
-BuildDirectory: C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode/build
+SourceDirectory: C:/Program Files/VSCode/VsCode
+BuildDirectory: C:/Program Files/VSCode/VsCode/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: LAPTOP-37VB49KH
+Site: LAPTOP-C433BFQM
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-mingw32-make
@@ -26,8 +26,8 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/lukas/AppData/Local/Programs/VScode/ObProg/VsCode"
-MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "C:/Program Files/VSCode/CMake/bin/cmake.exe" "C:/Program Files/VSCode/VsCode"
+MakeCommand: C:/Program\ Files/VSCode/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -44,7 +44,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: C:/Users/lukas/AppData/Local/Programs/VScode/Git/cmd/git.exe
+GITCommand: C:/Program Files/VSCode/Git/cmd/git.exe
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -57,7 +57,7 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: C:/Users/lukas/AppData/Local/Programs/VScode/Git/cmd/git.exe
+UpdateCommand: C:/Program Files/VSCode/Git/cmd/git.exe
 UpdateOptions: 
 UpdateType: git
 
