@@ -143,10 +143,10 @@ CMakeFiles/OOP.dir/OOP/Lab3/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/11.2.0/bits/vector.tcc \
  C:\Program\ Files\VSCode\VsCode\OOP\Lab3\student.h \
  C:\Program\ Files\VSCode\VsCode\OOP\Lab3\person.h \
+ C:\Program\ Files\VSCode\VsCode\OOP\Lab3\course.h \
  C:\Program\ Files\VSCode\VsCode\OOP\Lab3\teacher.h \
  C:\Program\ Files\VSCode\VsCode\OOP\Lab3\admin.h \
  C:\Program\ Files\VSCode\VsCode\OOP\Lab3\program.h \
- C:\Program\ Files\VSCode\VsCode\OOP\Lab3\course.h \
  C:\Program\ Files\VSCode\VsCode\OOP\Lab3\program_inst.h \
  C:\Program\ Files\VSCode\VsCode\OOP\Lab3\course_inst.h \
  C:\Program\ Files\VSCode\VsCode\OOP\Lab3\assessment.h

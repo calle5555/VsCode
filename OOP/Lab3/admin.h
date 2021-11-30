@@ -1,4 +1,5 @@
 #pragma once
+//<include "minibb.h"
 #include "person.h"
 
 class Admin: public Person{
@@ -9,11 +10,13 @@ class Admin: public Person{
 
     Admin(int office_num, string name, string email, string phone);
 
-    void Add_Teacher();
+    void Print_Info();
 
-    void Add_Student();
+    //void Add_Teacher(Teacher& teacher, Minibb& minibb);
 
-    void Add_Admin();
+    //void Add_Student(Student& student, Minibb& minibb);
+
+    vector<Admin> Add_Admin(Admin& admin, vector<Admin> admins);
 
     void Add_Course();
 

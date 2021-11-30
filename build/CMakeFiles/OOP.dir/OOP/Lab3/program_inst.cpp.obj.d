@@ -115,5 +115,5 @@ CMakeFiles/OOP.dir/OOP/Lab3/program_inst.cpp.obj: \
  C:/msys64/mingw64/include/c++/11.2.0/cerrno \
  C:/msys64/mingw64/include/c++/11.2.0/bits/charconv.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/basic_string.tcc \
- C:\Program\ Files\VSCode\VsCode\OOP\Lab3\program.h \
- C:\Program\ Files\VSCode\VsCode\OOP\Lab3\course.h
+ C:\Program\ Files\VSCode\VsCode\OOP\Lab3\course.h \
+ C:\Program\ Files\VSCode\VsCode\OOP\Lab3\program.h

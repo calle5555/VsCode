@@ -115,6 +115,6 @@ CMakeFiles/OOP.dir/OOP/Lab3/course_inst.cpp.obj: \
  C:\Program\ Files\VSCode\VsCode\OOP\Lab3\course_inst.h \
  C:\Program\ Files\VSCode\VsCode\OOP\Lab3\student.h \
  C:\Program\ Files\VSCode\VsCode\OOP\Lab3\person.h \
+ C:\Program\ Files\VSCode\VsCode\OOP\Lab3\course.h \
  C:\Program\ Files\VSCode\VsCode\OOP\Lab3\teacher.h \
- C:\Program\ Files\VSCode\VsCode\OOP\Lab3\assessment.h \
- C:\Program\ Files\VSCode\VsCode\OOP\Lab3\course.h
+ C:\Program\ Files\VSCode\VsCode\OOP\Lab3\assessment.h
