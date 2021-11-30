@@ -9,6 +9,5 @@ int main(int, char**) {
 
     minibb.admins.at(0).Add_Student(Student (2020, 1, "Calle", "student@oru.se", "1234"), minibb.admins)
 
-
     minibb.students.at(0).Print_info();
 }

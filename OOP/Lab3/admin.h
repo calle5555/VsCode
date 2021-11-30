@@ -16,7 +16,7 @@ class Admin: public Person{
 
     //void Add_Student(Student& student, Minibb& minibb);
 
-    vector<Admin> Add_Admin(Admin& admin, vector<Admin> admins);
+    vector<Admin> Add_Admin(Admin& admin, vector<Admin>* admins);
 
     void Add_Course();
 

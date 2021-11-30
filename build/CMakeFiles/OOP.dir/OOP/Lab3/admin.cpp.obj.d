@@ -135,10 +135,10 @@ CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.obj: \
  C:/msys64/mingw64/include/c++/11.2.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/11.2.0/istream \
  C:/msys64/mingw64/include/c++/11.2.0/bits/istream.tcc \
- C:\Program\ Files\VSCode\VsCode\OOP\Lab3\admin.h \
- C:\Program\ Files\VSCode\VsCode\OOP\Lab3\person.h \
  C:/msys64/mingw64/include/c++/11.2.0/vector \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stl_uninitialized.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stl_vector.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stl_bvector.h \
- C:/msys64/mingw64/include/c++/11.2.0/bits/vector.tcc
+ C:/msys64/mingw64/include/c++/11.2.0/bits/vector.tcc \
+ C:\Program\ Files\VSCode\VsCode\OOP\Lab3\admin.h \
+ C:\Program\ Files\VSCode\VsCode\OOP\Lab3\person.h

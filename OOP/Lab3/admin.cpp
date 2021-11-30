@@ -1,6 +1,6 @@
 #include <iostream>
-#include "admin.h"
 #include <vector>
+#include "admin.h"
 
 using namespace std;
 Admin::Admin(int office_num1 = 0, string name1 = "", string email1 = "", string phone1 = ""):
@@ -20,10 +20,9 @@ void Admin::Add_Student(Student& student, Minibb& minibb){
     minibb.students.push_back(student);
 }*/
 
-vector<Admin> Admin::Add_Admin(Admin& admin, vector<Admin> admins){
+void Admin::Add_Admin(Admin& admin, vector<Admin>* admins){
 
     admins.push_back(admin);
-    return admins;
 }
 
 void Admin::Add_Course(){

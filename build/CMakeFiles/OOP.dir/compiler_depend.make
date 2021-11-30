@@ -137,21 +137,13 @@ CMakeFiles/OOP.dir/OOP/Lab3/admin.cpp.obj: ../OOP/Lab3/admin.cpp \
   C:/msys64/mingw64/include/c++/11.2.0/bits/ostream.tcc \
   C:/msys64/mingw64/include/c++/11.2.0/istream \
   C:/msys64/mingw64/include/c++/11.2.0/bits/istream.tcc \
-  ../OOP/Lab3/admin.h \
-  ../OOP/Lab3/minibb.h \
   C:/msys64/mingw64/include/c++/11.2.0/vector \
   C:/msys64/mingw64/include/c++/11.2.0/bits/stl_uninitialized.h \
   C:/msys64/mingw64/include/c++/11.2.0/bits/stl_vector.h \
   C:/msys64/mingw64/include/c++/11.2.0/bits/stl_bvector.h \
   C:/msys64/mingw64/include/c++/11.2.0/bits/vector.tcc \
-  ../OOP/Lab3/student.h \
-  ../OOP/Lab3/person.h \
-  ../OOP/Lab3/course.h \
-  ../OOP/Lab3/teacher.h \
-  ../OOP/Lab3/program.h \
-  ../OOP/Lab3/program_inst.h \
-  ../OOP/Lab3/course_inst.h \
-  ../OOP/Lab3/assessment.h
+  ../OOP/Lab3/admin.h \
+  ../OOP/Lab3/person.h
 
 CMakeFiles/OOP.dir/OOP/Lab3/assessment.cpp.obj: ../OOP/Lab3/assessment.cpp \
   ../OOP/Lab3/assessment.h \
@@ -1712,10 +1704,6 @@ C:/msys64/mingw64/include/c++/11.2.0/bits/basic_ios.tcc:
 
 C:/msys64/mingw64/include/c++/11.2.0/istream:
 
-../OOP/Lab3/admin.h:
-
-../OOP/Lab3/minibb.h:
-
 C:/msys64/mingw64/include/c++/11.2.0/vector:
 
 C:/msys64/mingw64/include/c++/11.2.0/bits/stl_uninitialized.h:
@@ -1726,21 +1714,25 @@ C:/msys64/mingw64/include/c++/11.2.0/bits/stl_bvector.h:
 
 C:/msys64/mingw64/include/c++/11.2.0/bits/vector.tcc:
 
-../OOP/Lab3/course.h:
-
-../OOP/Lab3/teacher.h:
-
-../OOP/Lab3/program_inst.h:
-
-../OOP/Lab3/course_inst.h:
+../OOP/Lab3/admin.h:
 
 ../OOP/Lab3/assessment.cpp:
 
 ../OOP/Lab3/course.cpp:
 
+../OOP/Lab3/course.h:
+
 ../OOP/Lab3/course_inst.cpp:
 
+../OOP/Lab3/course_inst.h:
+
+../OOP/Lab3/teacher.h:
+
 ../OOP/Lab3/main.cpp:
+
+../OOP/Lab3/minibb.h:
+
+../OOP/Lab3/program_inst.h:
 
 ../OOP/Lab3/program1.cpp:
 
