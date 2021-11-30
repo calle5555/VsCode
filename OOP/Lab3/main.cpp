@@ -7,7 +7,8 @@ int main(int, char**) {
 
     Minibb minibb(Admin (2043, "Adam", "admin@oru.se", "1234663"));
 
-    minibb.admins.at(0).Add_Student(Student (2020, 1, "Calle", "student@oru.se", "1234"), minibb.admins)
+    minibb.admins.at(0).Add_Student(Student (2020, 1, "Calle", "student@oru.se", "1234"), minibb);
 
-    minibb.students.at(0).Print_info();
+    minibb.students.at(0).Print_Info();
+    minibb.admins.at(0).Print_Info();
 }

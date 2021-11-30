@@ -1,6 +1,10 @@
 #pragma once
 //<include "minibb.h"
 #include "person.h"
+#include "student.h"
+#include "teacher.h"
+
+class Minibb;
 
 class Admin: public Person{
     private:
@@ -12,11 +16,11 @@ class Admin: public Person{
 
     void Print_Info();
 
-    //void Add_Teacher(Teacher& teacher, Minibb& minibb);
+    void Add_Teacher(const Teacher& teacher, Minibb& minibb);
 
-    //void Add_Student(Student& student, Minibb& minibb);
+    void Add_Student(const Student& student, Minibb& minibb);
 
-    vector<Admin> Add_Admin(Admin& admin, vector<Admin>* admins);
+    void Add_Admin(const Admin& admin, Minibb& minibb);
 
     void Add_Course();
 

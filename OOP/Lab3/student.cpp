@@ -11,6 +11,6 @@ void Student::Print_Courses(){
 
 }
 
-void Student::Print_info(){
+void Student::Print_Info(){
     cout << year << "\n" << id  << "\n"  << name << "\n" << email << "\n" << phone << endl;
 }

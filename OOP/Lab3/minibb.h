@@ -21,7 +21,7 @@ class Minibb{
     vector<Admin> admins;
     friend class Admin;
 
-    Minibb(Admin& admin);
+    Minibb(const Admin& admin);
 
 };
 

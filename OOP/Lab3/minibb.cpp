@@ -1,6 +1,6 @@
 #include "minibb.h"
 
-Minibb::Minibb(Admin& admin){
+Minibb::Minibb(const Admin& admin){
 
     programs = {};
     progins = {};
@@ -9,6 +9,5 @@ Minibb::Minibb(Admin& admin){
     students = {};
     teachers = {};
     admins.push_back(admin);
-
 }
 

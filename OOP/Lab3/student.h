@@ -13,5 +13,5 @@ class Student: public Person{
     public:
         Student(int year, int id, string name, string email, string phone);
         void Print_Courses();
-        void Print_info();
+        void Print_Info();
 };
