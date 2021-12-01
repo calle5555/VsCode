@@ -8,8 +8,9 @@ class Program_Inst: public Program{
 
     private:
         int year;
-        vector<Student> students;
+        vector<Student*> students;
+        friend class Admin;
     
     public:
-        Program_Inst(string name, string code, int year);
+        Program_Inst(int year, string name, string code);
 };

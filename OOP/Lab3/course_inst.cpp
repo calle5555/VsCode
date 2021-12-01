@@ -1,6 +1,9 @@
 #include <vector>
 #include <string>
+#include <iostream>
 #include "course_inst.h"
+#include "student.h"
+#include "teacher.h"
 
 using namespace std;
 Course_Inst::Course_Inst(
@@ -14,7 +17,20 @@ Course(name1, code1, points1), year(year1), period(period1){
 }
 
 void Course_Inst::Print_Participants(){
+
+    cout << "Students: \n" << endl;
+    for(Student* i: students){
+        cout << i->Get_Name() << endl;
+    }
+
+    cout << "\nTeachers: \n" << endl;
+    for(Teacher* i: teachers){
+        cout << i->Get_Name() << endl;
+    }
 }
 
+string Course_Inst::Get_Name(){
+    return name;
+}
 
 

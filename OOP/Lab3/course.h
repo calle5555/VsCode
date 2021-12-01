@@ -12,5 +12,7 @@ class Course{
     public:
         Course(string name, string code, double points);
 
-        void Course_Info();
+        void Print_Info();
+
+        string Get_Name() const;
 };

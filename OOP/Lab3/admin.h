@@ -1,8 +1,11 @@
 #pragma once
-//<include "minibb.h"
 #include "person.h"
 #include "student.h"
 #include "teacher.h"
+#include "program.h"
+#include "course.h"
+#include "program_inst.h"
+#include "course_inst.h"
 
 class Minibb;
 
@@ -22,17 +25,19 @@ class Admin: public Person{
 
     void Add_Admin(const Admin& admin, Minibb& minibb);
 
-    void Add_Course();
+    void Add_Course(const Course& course, Minibb& minibb);
 
-    void Add_Program();
+    void Add_Program(const Program& program, Minibb& minibb);
 
-    void Add_CourseIns();
+    void Add_CourseInst(const Course_Inst& course_inst, Minibb& minibb);
 
-    void Add_ProgIns();
+    void Add_ProgInst(const Program_Inst& program_inst, Minibb& minibb);
 
-    void Enroll_Student_Course();
+    void Add_Course_Program(Course& course, Program& program);
 
-    void Assign_Teacher_Course();
+    void Enroll_Student_Course(Student& student, Course_Inst& course_inst);
 
-    void Enroll_Student_Program();
+    void Assign_Teacher_Course(Teacher& teacher, Course_Inst& course_inst);
+
+    void Enroll_Student_Program(Student& student, Program_Inst& program_inst);
 };

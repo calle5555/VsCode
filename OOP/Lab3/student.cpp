@@ -9,8 +9,20 @@ Person(name1, email1, phone1), year(year1), id(id1){
 
 void Student::Print_Courses(){
 
+    cout << "Courses that " << name << " takes" << endl;
+    for(Course_Inst* i: courses){
+        cout << i->Get_Name() << endl; 
+    }
 }
 
 void Student::Print_Info(){
-    cout << year << "\n" << id  << "\n"  << name << "\n" << email << "\n" << phone << endl;
+    cout << "Info:" << "\n" << year << "\n" << id  << "\n"  << name << "\n" << email << "\n" << phone << endl;
+}
+
+ int Student::Get_Id() const{
+    return id;
+}
+
+string Student::Get_Name() const{
+    return name;
 }

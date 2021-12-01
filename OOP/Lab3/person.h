@@ -11,5 +11,4 @@ class Person{
     public:
         Person(string name, string email, string phone);
 
-        void Person_Info();
 };

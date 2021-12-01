@@ -9,9 +9,16 @@ Person(name1, email1, phone1), office_num(off_num1){
 
 void Teacher::Print_Courses(){
 
+    cout << "Courses that " << name << " teaches" << endl;
+    for(Course_Inst* i: courses){
+        cout << i->Get_Name() << endl; 
+    }
 }
 
 void Teacher::Print_Info(){
-    cout << name << "\n" << phone << "\n" << email << "\n" << office_num << endl;
+    cout << "Info:" << "\n" << name << "\n" << phone << "\n" << email << "\n" << office_num << endl;
 }
 
+string Teacher::Get_Name() const{
+    return name;
+}

@@ -8,8 +8,10 @@ class Program{
     protected:
         string name;
         string code;
-        vector<Course> courses;
+        vector<Course*> courses;
+        friend class Admin;
 
     public:
         Program(string name, string code);
+
 };

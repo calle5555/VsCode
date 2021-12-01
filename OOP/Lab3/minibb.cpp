@@ -2,10 +2,11 @@
 
 Minibb::Minibb(const Admin& admin){
 
+    student_ids = {};
     programs = {};
-    progins = {};
+    program_inst = {};
     courses = {};
-    courseins = {};
+    course_inst = {};
     students = {};
     teachers = {};
     admins.push_back(admin);

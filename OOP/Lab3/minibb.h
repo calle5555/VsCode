@@ -13,12 +13,13 @@ class Minibb{
 
     public:
     vector<Program> programs;
-    vector<Program_Inst> progins;
+    vector<Program_Inst> program_inst;
     vector<Course> courses;
-    vector<Course_Inst> courseins;
+    vector<Course_Inst> course_inst;
     vector<Student> students;
     vector<Teacher> teachers;
     vector<Admin> admins;
+    vector<int> student_ids;
     friend class Admin;
 
     Minibb(const Admin& admin);
