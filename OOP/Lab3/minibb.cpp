@@ -9,6 +9,7 @@ Minibb::Minibb(const Admin& admin){
     course_inst = {};
     students = {};
     teachers = {};
+    // Adds an admin to the admin vector
     admins.push_back(admin);
 }
 

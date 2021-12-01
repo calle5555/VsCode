@@ -3,8 +3,8 @@
 
 using namespace std;
 int main(int, char**) {
-    cout << "Hello World!" << endl;
 
+    // Creates a mini blackboard and adds admin "Adam"
     Minibb minibb(Admin (2043, "Adam", "admin@oru.se", "1234663"));
 
     minibb.admins.at(0).Add_Student(Student (2020, 1, "Calle", "student@oru.se", "1234"), minibb);
@@ -65,8 +65,7 @@ int main(int, char**) {
     minibb.admins.at(0).Assign_Teacher_Course(minibb.teachers.at(3),minibb.course_inst.at(4));
     minibb.admins.at(0).Assign_Teacher_Course(minibb.teachers.at(1),minibb.course_inst.at(2));
 
-    
-    //Testing
+    //Testing all functions to see if they work
 
     cout << "Testing student " << minibb.students.at(0).Get_Name() << "\n" << endl;
     minibb.students.at(0).Print_Info();
@@ -104,6 +103,4 @@ int main(int, char**) {
     cout << "Testing course " << minibb.courses.at(0).Get_Name() << "\n" << endl;
     minibb.courses.at(0).Print_Info();
     cout << endl;
-    
-
 }

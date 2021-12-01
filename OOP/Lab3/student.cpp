@@ -10,6 +10,7 @@ Person(name1, email1, phone1), year(year1), id(id1){
 void Student::Print_Courses(){
 
     cout << "Courses that " << name << " takes" << endl;
+    // Prints all the courses
     for(Course_Inst* i: courses){
         cout << i->Get_Name() << endl; 
     }

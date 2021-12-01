@@ -8,7 +8,9 @@ class Program_Inst: public Program{
 
     private:
         int year;
+        //Agregation
         vector<Student*> students;
+        // Admin needs to be able to acces Program Instance
         friend class Admin;
     
     public:

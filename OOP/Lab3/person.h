@@ -3,6 +3,7 @@
 
 using namespace std;
 class Person{
+    //Protected for inheritance
     protected:
         string name;
         string email;

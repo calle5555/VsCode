@@ -20,6 +20,7 @@ void Admin::Add_Student(const Student& student, Minibb& minibb){
     
     int tmp = 0;
     int id = student.Get_Id();
+    // Checks that the student ID is unique
     for(int i: minibb.student_ids)
     {
         if(i == id){
@@ -27,7 +28,8 @@ void Admin::Add_Student(const Student& student, Minibb& minibb){
             cout << "non-unique id" << endl;
             break; 
         }
-    }
+    } 
+    // Adds the new student if the student ID is unique
     if(tmp == 0)
     {
         minibb.student_ids.push_back(id);
@@ -59,7 +61,7 @@ void Admin::Add_ProgInst(const Program_Inst& program_inst, Minibb& minibb){
 
     minibb.program_inst.push_back(program_inst);
 }
-
+ 
  void Admin::Add_Course_Program(Course& course, Program& program){
 
     program.courses.push_back(&course);

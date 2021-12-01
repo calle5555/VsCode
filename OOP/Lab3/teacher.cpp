@@ -10,6 +10,7 @@ Person(name1, email1, phone1), office_num(off_num1){
 void Teacher::Print_Courses(){
 
     cout << "Courses that " << name << " teaches" << endl;
+    // Prints all the courses
     for(Course_Inst* i: courses){
         cout << i->Get_Name() << endl; 
     }
