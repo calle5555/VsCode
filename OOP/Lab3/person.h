@@ -3,6 +3,7 @@
 
 using namespace std;
 class Person{
+    //Protected for inheritance
     protected:
         string name;
         string email;
@@ -10,6 +11,5 @@ class Person{
 
     public:
         Person(string name, string email, string phone);
-
-        void Person_Info();
+        virtual string Get_Name() const = 0;
 };
