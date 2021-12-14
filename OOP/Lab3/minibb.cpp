@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include "minibb.h"
 
@@ -34,14 +33,15 @@ void Minibb::Print_Participants_Info(Course_Inst& course){
     }
 
 }
-    void Minibb::Print_Courses(vector<Course *> courses){
-        for(Course *i: courses){
-            cout << i->Get_Name() << endl;
-        }
-    }
 
-    void Minibb::Print_Courses(vector<Course_Inst *> courses){
-        for(Course_Inst *i: courses){
-            cout << i->Get_Name() << endl;
-        }
+void Minibb::Print_Courses(vector<Course *> courses){
+    for(Course *i: courses){
+        cout << i->Get_Name() << endl;
     }
+}
+
+void Minibb::Print_Courses(vector<Course_Inst *> courses){
+    for(Course_Inst *i: courses){
+        cout << i->Get_Name() << endl;
+    }
+}

@@ -30,5 +30,5 @@ class Course_Inst: public Course{
         void Print_Participants();
 
         // Helper function
-        string Get_Name();
+        //string Get_Name();
 };

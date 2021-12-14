@@ -1,0 +1,14 @@
+S: Only admin can change classes (ex enroll students etc) and therfore SRP wont be a problem.
+
+O: All functions are separated into the specific class that uses them and for example,
+admin functions are not stuffed into our "Person" class. In short, we use inheritance istead of a 
+fat person class (extend without modify).
+
+The What_Courses_Interface has potential to be 
+problematic. When teacher and student implements the functions, it will return a vector of course_inst. 
+When Program implements the fuction it will return a vector of courses. This is currently not a problem
+because no functions uses the interface but it could be in the future. It might not even become a 
+problem because course_inst is a subclass of course and therefore has all members of course, it all
+ depends on the eventual implementation. 
+
+ L: 

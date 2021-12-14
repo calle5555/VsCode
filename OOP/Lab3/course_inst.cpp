@@ -29,9 +29,9 @@ void Course_Inst::Print_Participants(){
         cout << i->Get_Name() << endl;
     }
 }
-
+/*
 string Course_Inst::Get_Name(){
     return name;
-}
+}*/
 
 

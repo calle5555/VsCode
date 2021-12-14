@@ -1,6 +1,10 @@
 #include <iostream>
 #include "minibb.h"
 
+string test(Course c){
+    return c.Get_Name();
+}
+
 using namespace std;
 int main(int, char**) {
 
@@ -97,4 +101,7 @@ int main(int, char**) {
 
     cout << "Testing Print_Courses funcion for programs" << endl;
     minibb.Print_Courses(minibb.programs.at(0).What_Courses());
+
+    // LSP test
+    cout << endl << test(minibb.course_inst.at(0)) << endl;
 }

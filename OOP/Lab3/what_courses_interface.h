@@ -9,5 +9,4 @@ template<class T>
 class What_Courses_Interface{
     public:
         virtual vector<T> What_Courses() = 0;
-
 };
